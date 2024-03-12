@@ -4,12 +4,23 @@
     min-height: 821px;
     margin: 0 auto;
     background-image: url(/images/header_m.jpg);
-    background-repeat: no-repeat;
+    
+    &__wrapper{
+        width: 100%;
+        min-height: 821px;
+        border: purple solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     &__box{
+        width: 100%;
+        min-height: 730px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
     &__title{
         width: 100%;
@@ -33,7 +44,7 @@ input{
     height: 63px;
 }
 .header__btn{
-    float: right;
+    
     width: 153px;
     height: 63px;
 }
@@ -44,6 +55,7 @@ input{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: orange solid;
 
     &__logo{
         width: 186px;
