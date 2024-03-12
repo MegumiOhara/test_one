@@ -1,0 +1,61 @@
+.cont-b{
+    min-height: 685px;
+    background-image: url(/images/castle_w.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px purple solid;
+
+    &__wrap{
+        width: 100%;
+        max-width: 1113px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: 2px solid green;
+
+    }
+    &__box{
+        
+       border: 2px yellow solid;
+    }
+    &__title{
+        width: 288px;
+        font-size: 36px;
+        font-family: variables.$secondary-font;
+        margin-bottom: 50px;
+    }
+    &__text{
+        width: 100%;
+        max-width: 560px;
+        height: 158px;
+        
+        border: 2px solid pink;
+        
+    }
+}
+
+.cont-b__btn{
+    width: 228px;
+    height: 63px;
+}
+.cont-b__box2{
+    width: 100%;
+    max-width: 557px;
+    margin: 0 auto;
+    
+}
+.cont-b__images{
+    padding: 10px;
+    border:2px  solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex: column;
+    justify-content: right;
+    
+}
+.cont-b__img{
+    
+}
+
