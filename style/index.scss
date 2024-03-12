@@ -79,6 +79,11 @@
     }
 }
 @media screen and (max-width:400px){
+    .header__subt{
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
     .cont-b__images{
         display: none;
     }
