@@ -1,0 +1,31 @@
+body{
+    color: #E8E8E8;
+    margin: 0 auto;
+    font-family: variables.$main-font;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 48;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+h2{
+    font-family: variables.$secondary-font;
+    font-size: 36px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+p{
+    font-size: 16;
+    
+    line-height: 26px;
+}
+button{
+    font-family: variables.$secondary-font;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: variables.$theme-color;
+    padding: 20px;
+    border: none;
+}
