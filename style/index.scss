@@ -8,8 +8,9 @@
 @import 'section-c';
 
 @mixin cont-style{
+    width: 100%;
     max-width: 543px;
-    height: 374px;
+    min-height: 374px;
     background-color: #232323;
     opacity: 0.9;
     padding: 10px;
