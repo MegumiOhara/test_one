@@ -46,18 +46,10 @@
         margin-top:30px;
         text-transform: uppercase;
     }
- 
 }
-
 @import 'section-d'; 
 @import 'section-e';
 
-.cont-e{
-    min-height: 700px;
-    background-image: url(/images/sea_spain.jpg);
-}
-.cont-f{
-    min-height: 731px;
-    background-image: url(/images/hiking_sam.jpg);
-}
+@import 'section-f';
+
 @import 'footer';
