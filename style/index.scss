@@ -55,3 +55,35 @@
 
 @import 'footer';
 
+@media screen and (max-width:600px){
+    .cont-b__title{
+        font-size: 25px;
+    }
+    .cont-b__imga, .cont-b__imgb{
+        width: 100%;
+        max-width: 250px;
+        min-height: 200px;
+        margin-right: 10px;
+    }
+    .cont-c__item{
+        width: 100%;
+        max-width: 50px;
+        min-height: 50px;
+    }
+    .cont-c__text{
+        font-size: 20px;
+    }
+    .cont-f__image{
+        width: 100%;
+        max-width: 320px;
+    }
+}
+@media screen and (max-width:400px){
+    .cont-b__imga, .cont-b__imgb{
+       display: none;
+    }
+    .cont-f__title{
+        font-size: 25px;
+        text-align: center;
+    }
+}
