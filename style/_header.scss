@@ -7,8 +7,8 @@
     
     &__wrapper{
         width: 100%;
+        max-width: 1770px;
         min-height: 821px;
-        border: purple solid;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -16,11 +16,13 @@
     &__box{
         width: 100%;
         min-height: 730px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        border: red solid;
     }
     &__title{
         width: 100%;
@@ -32,21 +34,53 @@
     &__subt{
         width: 100%;
         max-width:345px;
+        min-height: 26px;
         padding: 10px;
         font-size: 22px;
         letter-spacing: 6px;
-
+        text-align: center;
     }
 }
-input{
+.header__text{
+    display: flex;
+    width: 100%;
+    max-width: 653px;
+    min-height: 63px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header__input{
     width: 100%;
     max-width: 503px;
-    height: 63px;
+    min-height: 63px;
+    padding: 10px 0 10px 10px;
+    border: none; 
+    box-sizing: border-box;   
 }
 .header__btn{
-    
-    width: 153px;
+    width: 100%;
+    max-width: 153px;
     height: 63px;
+    cursor: pointer;    
+}
+.fa-magnifying-glass{
+    width: 22px;
+    height: 24px;
+    color: white;
+    padding-left: 5px;
+}
+.header__scroll{
+    width: 208px;
+    height: 46;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.header__item{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2.8px;
 }
 .nav{
     width: 100%;
@@ -58,7 +92,8 @@ input{
     border: orange solid;
 
     &__logo{
-        width: 186px;
+        width: 100%;
+        max-width: 186px;
         height: 20px;
     }
     &__list{

@@ -1,7 +1,6 @@
-/*{
-    margin: 0;
-    padding: 0;
-}*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: #FFFFFF;
     /*width: 100%; */
@@ -40,4 +39,8 @@ button{
     background-color: variables.$theme-color;
     padding: 20px;
     border: none;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: purple;
 }
