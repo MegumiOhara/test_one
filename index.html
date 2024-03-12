@@ -32,13 +32,16 @@
                         </a> 
                     </div>
                 </div>
-                <nav class="nav">
+                <nav class="nav" id="nav-bar">
                     <svg class="nav__logo"><use href="/images/logo.svg#logo"><a href="#"></a></use></svg>
                     <ul class="nav__list">
-                        <li class="nav__li"><a href="#" class="nav__link">Who we are</a></li>
+                        <li class="nav__li"><a href="#" class="nav__link active">Who we are</a></li>
                         <li class="nav__li" ><a href="#" class="nav__link">What we do</a></li>
                         <li class="nav__li"><a href="#" class="nav__link">Travel with us</a></li>
                         <li class="nav__li"><a href="#" class="nav__link">Contact us</a></li>
+                        <a class="icon" onclick="burgerMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
                     </ul>
                 </nav>
             </div>
@@ -169,5 +172,16 @@
             </div>
         
     </footer>
+
+    <script>
+    function burgerMenu() {
+    let burger = document.getElementById("nav-bar");
+    if (burger.className === "nav") {
+    burger.className += " responsive";
+    } else {
+    burger.className = "nav";
+    }
+    }
+    </script>
 </body>
 </html>
