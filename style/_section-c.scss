@@ -8,45 +8,55 @@
     justify-content: center;
         &__wrapper{
             width: 100%;
-            max-width: 1113px;
+            max-width: 1000px;
             height: 340px;
-            border: red solid;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
+            padding: 10px;
+            box-sizing: border-box;
         }
         &__box{
             width: 100%;
-            max-width: 900px;
-            border: blue solid;
+            max-width: 850px;
+            min-height: 40px;
             display: flex;
             justify-content: space-between;
-            padding-bottom: 10px;
+            padding: 0px 15px, 10px, 15px;
+            box-sizing: border-box;
+
         }
         &__box2{
             width: 100%;
             max-width: 1113px;
-            border: yellow solid;
             display: flex;
             justify-content: space-between;
-           
         }
         
+}
+.box-top{
+    width: 100%;
+    max-width: 680px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.arch{
+    width: 100%;
 }
 .cont-c__item{
     width: 100%;
     max-width: 63px;
-    min-height: 62px;     
+    min-height: 62px; 
+    padding: 10px;    
 }
 .cont-c__text{
     width: 100%;
     max-width: 245px;
     font-size: 36px;
     font-family: variables.$secondary-font;
-    border: 1px blue solid;
-    
+    text-align: center;
     
 }
 

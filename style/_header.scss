@@ -22,7 +22,6 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        border: red solid;
     }
     &__title{
         width: 100%;
@@ -39,6 +38,7 @@
         font-size: 22px;
         letter-spacing: 6px;
         text-align: center;
+        box-sizing: border-box;
     }
 }
 .header__text{
