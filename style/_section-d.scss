@@ -1,0 +1,18 @@
+.cont-d{
+    width: 100%;
+    margin: 0 auto;
+   /* min-height: 700px; */
+    background-image: url(/images/house_spain.jpg); 
+}
+.cont-d__wrapper{
+    width: 100%;
+    max-width: 1113px;
+    min-height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.cont-d__box{
+    @include cont-style; 
+} 
