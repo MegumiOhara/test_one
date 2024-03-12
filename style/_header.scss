@@ -57,6 +57,9 @@
     border: none; 
     box-sizing: border-box;   
 }
+.header__input:hover{
+    border: 1px purple solid;
+}
 .header__btn{
     width: 100%;
     max-width: 153px;
