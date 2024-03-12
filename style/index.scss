@@ -1,2 +1,27 @@
 @use 'variables';
 @import 'base';
+
+@import 'header';
+
+
+.cont-b{
+    min-height: 685px;
+    background-image: url(/images/castle_w.jpg);
+}
+.cont-c{
+    min-height: 340px;
+    background-color: #333333;
+}
+.cont-d{
+    min-height: 700px;
+    background-image: url(/images/house_spain.jpg);
+}
+.cont-e{
+    min-height: 700px;
+    background-image: url(/images/sea_spain.jpg);
+}
+.cont-f{
+    min-height: 731px;
+    background-image: url(/images/hiking_sam.jpg);
+}
+@import 'footer';

@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    color: #E8E8E8;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 1773px;
     margin: 0 auto;
     font-family: variables.$main-font;
     box-sizing: border-box;
@@ -17,7 +23,7 @@ h2{
 }
 p{
     font-size: 16;
-    
+    color: #E8E8E8;
     line-height: 26px;
 }
 button{
